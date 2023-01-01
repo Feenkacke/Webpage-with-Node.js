@@ -7,10 +7,10 @@ module.exports = {
     hot: true,
     open: true,
     static: ['./'],
-    compress: true, 
-    Inline: true, 
-    port: '8080',
-    allowedHosts: ['.azurewebsites.net', 'webappgg1.azurewebsites.net'],
+    //compress: true, 
+    //Inline: true, 
+    //port: '8080',
+    //allowedHosts: ['.azurewebsites.net', 'webappgg1.azurewebsites.net'],
   },
   plugins: [
     new HtmlWebpackPlugin({
