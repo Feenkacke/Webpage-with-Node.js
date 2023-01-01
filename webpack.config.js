@@ -7,6 +7,9 @@ module.exports = {
     hot: true,
     open: true,
     static: ['./'],
+    compress: true, 
+    Inline: true, 
+    port: '8080'
     allowedhosts: ['.azurewebsites.net']
   },
   plugins: [
