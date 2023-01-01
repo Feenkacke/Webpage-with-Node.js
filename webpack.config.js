@@ -7,8 +7,6 @@ module.exports = {
     hot: true,
     open: true,
     static: ['./'],
-    compress: true,
-    inline: true, 
     allowedhosts: [.azurewebsites.net]
   },
   plugins: [
