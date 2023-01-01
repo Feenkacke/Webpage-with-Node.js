@@ -10,7 +10,7 @@ module.exports = {
     compress: true, 
     Inline: true, 
     port: '8080'
-    allowedhosts: ['.azurewebsites.net']
+    allowedHosts: ['all']
   },
   plugins: [
     new HtmlWebpackPlugin({
